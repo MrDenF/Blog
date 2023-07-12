@@ -1,0 +1,70 @@
+:root{
+    --background-color: #fff;
+    --navigatio-color: #7D7D7D;
+    --title-color: #626262;
+    --span-color: #B4AD9E;
+    --hover-color: #03A9F4;
+}
+
+body{
+    width: 1200px;
+    padding: 71px 147px;
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--title-color);
+}
+
+.button1{
+    border: 1px solid var(--title-color);
+    background: var(--background-color);
+    width: 165px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.button1:hover{
+    color: var(--hover-color);
+    border: 1px solid var(--hover-color);
+}
+
+.card{
+    width: 420px;
+}
+
+.wrap{
+    margin-bottom: 62px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+span{
+    margin-bottom: 32px;
+    font-weight: 400px;
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--span-color);
+}
+
+nav{
+    word-spacing: 99px;
+    color: var(--navigatio-color);
+    text-align: center;
+}
+
+.title{
+    font-size: 30px ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: var(--hover-color);
+}
+
+.main-wrap{
+    margin-top: 92px;
+    margin-bottom: 94px;
+}
